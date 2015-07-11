@@ -1,0 +1,27 @@
+{
+  "name": "mockqueue",
+  "base": "PersistedModel",
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "queueid": {
+      "type": "number",
+      "required": true
+    },
+    "since": {
+      "type": "date",
+      "required": true
+    },
+    "ticketname": {
+      "type": "string",
+      "required": true,
+      "length": 40
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

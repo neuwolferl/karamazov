@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "name": "mysqlDs",
+    "connector": "mysql",
+    "host": "wolf.c5mk7dynurzt.us-west-2.rds.amazonaws.com",
+    "port": 3306,
+    "database": "qoff",
+    "username": "wolf",
+    "password": "ClaAlb7187"
+  }
+}
